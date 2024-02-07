@@ -1,0 +1,42 @@
+.Image {
+  margin-left: 70px;
+  margin-top: 70px;
+
+}
+
+.AboutMe {
+  padding-left: 350px;
+}
+#name {
+  font-size: 30px;
+}
+body {
+  margin: 20px;
+    }
+
+body {background-color:ghostwhite}
+
+h2 {border-left: solid 5px #0093D0;
+    padding-left:10px;
+  }
+
+#child1 {padding: 10px; margin-bottom: 10px; border: 5px double #333333;
+}
+
+#child2 {padding: 10px; margin-bottom: 10px; border: 5px double #333333;
+}
+
+#parent{
+  margin-top: 70px;
+}
+@media (min-width: 600px){
+  #parent{
+    display: flex;
+  }
+  #child1{
+    flex-grow: 1;
+  }
+  #child2{
+    flex-grow: 1;
+  }
+}
